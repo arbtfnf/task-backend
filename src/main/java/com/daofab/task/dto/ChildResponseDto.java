@@ -1,0 +1,14 @@
+package com.daofab.task.dto;
+
+import java.io.Serial;
+import java.io.Serializable;
+
+public class ChildResponseDto implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 1L;
+    private long id;
+    private String sender;
+    private String receiver;
+    private int totalAmount;
+    private int amountPaid;
+}
